@@ -1,0 +1,24 @@
+2024-12-13 17:46:51,370 - INFO - main - Successfully read the given configuration file, created experiment directory and set up logger.
+2024-12-13 17:46:51,371 - INFO - main - Starting experiment in mode eval using configuration ./config/egoschema/exp6/egoschema.yaml
+2024-12-13 17:46:51,371 - INFO - experiment - Initialized dataset and dataloader
+2024-12-13 17:46:51,385 - INFO - experiment - Using the following CUDA visible devices:
+2024-12-13 17:46:51,391 - INFO - experiment -     - Device 0: NVIDIA GeForce RTX 3090 Ti
+2024-12-13 17:46:51,391 - WARNING - experiment - Note that this framework will use the assigned device indices instead of the real ones.
+2024-12-13 17:46:51,391 - INFO - experiment - No resume path specified, starting new experiment...
+2024-12-13 17:46:51,391 - INFO - experiment - Created json file at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-46-51-370562/predictions.json
+2024-12-13 17:46:51,391 - INFO - experiment - Created json file at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-46-51-370562/conclusions.json
+2024-12-13 17:46:51,391 - INFO - experiment - Created json file at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-46-51-370562/decisions.json
+2024-12-13 17:46:51,391 - INFO - experiment - Starting experiment, saving predictions at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-46-51-370562/predictions.json
+2024-12-13 17:46:51,391 - WARNING - remote - Using OpenAI API key found in environment variable OPENAI_API_KEY. Make sure to specify the API key in the .env file in your project root. 
+2024-12-13 17:46:51,419 - DEBUG - remote - Initialized OpenAI client of OpenAI LLM gpt-3.5-turbo-1106
+2024-12-13 17:46:51,420 - INFO - load - Loaded ground truth answers from ../egoschema/subset_answers.json.
+2024-12-13 17:46:51,430 - INFO - load - Loaded tasks (questions and options) from ../egoschema/questions.json.
+2024-12-13 17:46:51,492 - INFO - experiment - Loaded data from ../egoschema/subset_answers.json and ../egoschema/questions.json.
+2024-12-13 17:46:51,492 - INFO - experiment - Loaded predictions from ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-46-51-370562/predictions.json.
+2024-12-13 17:46:51,492 - INFO - experiment - Initialized static video reasoning VideoINSTA experiment
+2024-12-13 17:46:51,492 - INFO - experiment - Starting evaluation experiment...
+2024-12-13 17:46:51,492 - INFO - experiment - Starting video reasoning for videos 0 to 1 (i.e. 1) videos in total)...
+2024-12-13 17:46:51,505 - INFO - experiment - Random seed has been reset to 42 to ensure reproducibility and comparability.
+2024-12-13 17:46:51,505 - INFO - experiment - Starting video reasoning for video 0074f737-11cb-497d-8d07-77c3a8127391...
+2024-12-13 17:46:51,505 - INFO - experiment - Question: Taking into account all the actions performed by c, what can you deduce about the primary objective and focus within the video content?.
+2024-12-13 17:46:51,505 - INFO - experiment - Options: {'option 0': 'C is cooking.', 'option 1': 'C is doing laundry.', 'option 2': 'C is cleaning the kitchen.', 'option 3': 'C is cleaning dishes.', 'option 4': 'C is cleaning the bathroom.'}

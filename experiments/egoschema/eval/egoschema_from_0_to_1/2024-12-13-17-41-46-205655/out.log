@@ -1,0 +1,18 @@
+2024-12-13 17:41:46,206 - INFO - main - Successfully read the given configuration file, created experiment directory and set up logger.
+2024-12-13 17:41:46,206 - INFO - main - Starting experiment in mode eval using configuration ./config/egoschema/exp6/egoschema.yaml
+2024-12-13 17:41:46,206 - INFO - experiment - Initialized dataset and dataloader
+2024-12-13 17:41:46,220 - INFO - experiment - Using the following CUDA visible devices:
+2024-12-13 17:41:46,226 - INFO - experiment -     - Device 0: NVIDIA GeForce RTX 3090 Ti
+2024-12-13 17:41:46,227 - WARNING - experiment - Note that this framework will use the assigned device indices instead of the real ones.
+2024-12-13 17:41:46,227 - INFO - experiment - No resume path specified, starting new experiment...
+2024-12-13 17:41:46,227 - INFO - experiment - Created json file at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-41-46-205655/predictions.json
+2024-12-13 17:41:46,227 - INFO - experiment - Created json file at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-41-46-205655/conclusions.json
+2024-12-13 17:41:46,227 - INFO - experiment - Created json file at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-41-46-205655/decisions.json
+2024-12-13 17:41:46,227 - INFO - experiment - Starting experiment, saving predictions at ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-41-46-205655/predictions.json
+2024-12-13 17:41:46,227 - WARNING - remote - Using OpenAI API key found in environment variable OPENAI_API_KEY. Make sure to specify the API key in the .env file in your project root. 
+2024-12-13 17:41:46,254 - DEBUG - remote - Initialized OpenAI client of OpenAI LLM gpt-3.5-turbo-1106
+2024-12-13 17:41:46,254 - INFO - load - Loaded ground truth answers from ../egoschema/subset_answers.json.
+2024-12-13 17:41:46,268 - INFO - load - Loaded tasks (questions and options) from ../egoschema/questions.json.
+2024-12-13 17:41:46,329 - INFO - experiment - Loaded data from ../egoschema/subset_answers.json and ../egoschema/questions.json.
+2024-12-13 17:41:46,329 - INFO - experiment - Loaded predictions from ./experiments/egoschema/eval/egoschema_from_0_to_1/2024-12-13-17-41-46-205655/predictions.json.
+2024-12-13 17:41:46,329 - INFO - experiment - Initialized static video reasoning VideoINSTA experiment
